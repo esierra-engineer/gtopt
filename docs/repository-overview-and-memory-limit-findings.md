@@ -2,7 +2,7 @@
 
 ## What this repository is
 
-`gtopt` is a high-performance optimization codebase for **Generation and Transmission Expansion Planning (GTEP)**.  
+`gtopt` is a high-performance optimization codebase for **Generation and Transmission Expansion Planning (GTEP)**.
 Core solver logic is in modern C++ and models power-system operations/investments as LP/MIP problems.
 
 ## High-level codebase structure
@@ -84,4 +84,3 @@ Expected behavior in real runs:
 - Effective parallelism may be very low.
 - Runtime can increase significantly.
 - If baseline process RSS already exceeds 100 MB, the limit functions mostly as a “do not increase concurrency” throttle rather than a strict cap.
-
